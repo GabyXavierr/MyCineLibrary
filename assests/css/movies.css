@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+     background-image: url("../images/background.png"); /* Caminho para a imagem */
+     background-repeat: no-repeat;   /* Impede que a imagem se repita */
+  background-size: cover;        /* Ajusta a imagem para cobrir a página */
+  background-attachment: fixed;   /* Mantém a imagem fixa durante a rolagem (opcional) */
+}
+
+/* Estilos para o header da página */
+header {
+  background-color: #222222; /* Define a cor de fundo do header como cinza escuro */
+  color: rgb(255, 255, 255); /* Define a cor do texto do header como branco */
+  padding: 2rem; /* Adiciona um espaçamento interno ao header de 2rem em todos os lados */
+  text-align: center; /* Centraliza o conteúdo do header horizontalmente */
+}
+
+/* Estilos para o campo de pesquisa */
+#search-box {
+  padding: 0.6rem; /* Adiciona um espaçamento interno ao campo de pesquisa */
+  border: 0px solid #ccc; /* Define uma borda sólida cinza claro para o campo de pesquisa */
+  border-radius: 8px; /* Arredonda os cantos do campo de pesquisa */
+  margin-right: 0.5rem; /* Adiciona uma margem à direita do campo de pesquisa */
+}
+
+/* Estilos para os botões de pesquisa e favoritos */
+#search-button,
+#favorites-button {
+  padding: 0.6rem 1rem; /* Adiciona um espaçamento interno aos botões */
+  background-color: #a00101; /* Define a cor de fundo dos botões como vermelho escuro */
+  color: white; /* Define a cor do texto dos botões como branco */
+  border: none; /* Remove a borda dos botões */
+  border-radius: 4px; /* Arredonda os cantos dos botões */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro ao passar o mouse sobre os botões */
+}
+
+
+/* Estilos para o botão de adicionar aos favoritos */
+.add-favorite {
+  position: absolute; /* Define o elemento como posicionado absolutamente em relação ao seu ancestral não estático mais próximo */
+  top: 0.5rem; /* Define a distância do topo do elemento em relação ao seu ancestral posicionado mais próximo */
+  right: 0.5rem; /* Define a distância da direita do elemento em relação ao seu ancestral posicionado mais próximo */
+  background-color: transparent; /* Define a cor de fundo do elemento como transparente */
+  border: none; /* Remove a borda do elemento */
+  font-size: 1.5rem; /* Define o tamanho da fonte do elemento */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro ao passar o mouse sobre o elemento */
+}
+
+/* Classe utilitária para esconder elementos */
+.hidden {
+  display: none; /* Define o elemento como não exibido */
+}
+
+#login-button {
+  padding: 0.6rem 2rem; /* Adiciona um espaçamento interno aos botões */
+  background-color: #a00101; /* Define a cor de fundo dos botões como vermelho escuro */
+  color: white; /* Define a cor do texto dos botões como branco */
+  border: none; /* Remove a borda dos botões */
+  border-radius: 4px; /* Arredonda os cantos dos botões */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro ao passar o mouse sobre os botões */
+}
+
+#signup-button {
+  padding: 0.6rem 2rem; /* Adiciona um espaçamento interno aos botões */
+  background-color: #a00101; /* Define a cor de fundo dos botões como vermelho escuro */
+  color: white; /* Define a cor do texto dos botões como branco */
+  border: none; /* Remove a borda dos botões */
+  border-radius: 4px; /* Arredonda os cantos dos botões */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro ao passar o mouse sobre os botões */
+}
